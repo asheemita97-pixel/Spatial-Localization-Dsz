@@ -17,8 +17,6 @@ Reviewers and researchers can run these simulations directly in the browser with
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asheemita97-pixel/Spatial-Localization-Dsz/blob/main/E1periphery.ipynb)
 
 ## Overview
-This model solves the coupled Partial Differential Equations (PDEs) for metabolic intermediates using the Forward Time Centered Space (FTCS) finite difference method. It simulates the diffusion and reaction kinetics of intermediates between spatially localized recombinant metabolic modules (DszA, DszB, DszC) inside a bacterial cell. 
+This model solves the coupled Partial Differential Equations (PDEs) for metabolic intermediates using the Forward Time Centered Space (FTCS) finite difference method. It simulates the diffusion and reaction kinetics as well as estimates a measure of product expelled due to spatially localized Dsz enzymes (DszA, DszB, DszC) inside a bacterial cell. 
 
-## Biological Parameters
-* **Boundary Conditions:** Modeled with No-Flux (Neumann) boundaries at the cell membrane for intermediates, while allowing passive diffusion of the lipophilic end-product (2-HBP).
-* **Spatial Density:** Enzyme localization coordinates are derived from 3D Lattice SIM microscopy data and integrated into the reaction grid.
+
